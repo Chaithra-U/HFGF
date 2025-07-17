@@ -1,0 +1,16 @@
+Check for functional dependencies in file 'synthetic_tabula_test_check.csv'
+Rows: 100
+Cols: 8
+----
+
+Keys: []
+----
+
+{"patient_ids"} -> {"age", "gender", "Feature_A", "Feature_B", "Feature_C", "Feature_D", "Feature_E"}
+{"Feature_A"} -> {"Feature_B", "Feature_C", "Feature_E"}
+{"Feature_B"} -> {"Feature_A", "Feature_C", "Feature_E"}
+{"Feature_C"} -> {"Feature_E"}
+{"Feature_E"} -> {"Feature_C"}
+{"Feature_C", "Feature_D"} -> {"Feature_A", "Feature_B"}
+{"Feature_D", "Feature_E"} -> {"Feature_A", "Feature_B"}
+.

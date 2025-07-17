@@ -1,0 +1,101 @@
+patient_ids,age,gender,Feature_A,Feature_B,Feature_C,Feature_D,Feature_E,Feature_F,Feature_G,Feature_H,Feature_I,Feature_J,Feature_K,Feature_L
+64.0,42.0,Male,Low,class_0,No,Med_A,absent,class_a,type_0,no_pain,A,X,positive,stage_1
+3.0,46.0,Male,Normal,class_1,Yes,Med_C,present ,class_d,type_1,pain  ,A,X,positive,stage_2
+28.0,19.0,Female,Normal,class_1,Yes,Med_C,present ,class_c,type_1,pain  ,A,X,positive,stage_2
+23.0,19.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+74.0,45.0,Male,Normal,class_1,Yes,Med_E,present ,class_c,type_2,pain  ,B,Y,positive,stage_2
+68.0,75.0,Male,Normal,class_1,Yes,Med_C,present ,class_d,type_1,pain  ,A,X,positive,stage_2
+90.0,79.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+9.0,56.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+43.0,77.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+3.0,46.0,Male,Normal,class_1,Yes,Med_C,present ,class_d,type_1,pain  ,A,X,positive,stage_2
+22.0,70.0,Male,Low,class_0,No,Med_A,absent,class_a,type_0,no_pain,A,X,positive,stage_1
+51.0,61.0,Male,Normal,class_1,Yes,Med_E,present ,class_c,type_2,pain  ,B,Y,positive,stage_2
+3.0,46.0,Male,Normal,class_1,Yes,Med_C,present ,class_d,type_1,pain  ,A,X,positive,stage_2
+20.0,20.0,Male,Normal,class_1,Yes,Med_C,present ,class_c,type_1,pain  ,A,X,positive,stage_2
+65.0,77.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+55.0,20.0,Male,High,class_2,Yes,Med_D,present ,class_c,type_2,pain  ,B,Y,negative,stage_2
+23.0,19.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+59.0,38.0,Male,Low,class_0,No,Med_B,absent,class_b,type_1,no_pain,A,X,negative,stage_1
+81.0,64.0,Male,Normal,class_1,Yes,Med_C,present ,class_d,type_1,pain  ,A,X,positive,stage_2
+1.0,56.0,Male,Normal,class_1,Yes,Med_C,present ,class_d,type_1,pain  ,A,X,positive,stage_2
+81.0,64.0,Male,Normal,class_1,Yes,Med_C,present ,class_d,type_1,pain  ,A,X,positive,stage_2
+70.0,43.0,Male,Normal,class_1,Yes,Med_C,present ,class_c,type_1,pain  ,A,X,positive,stage_2
+35.0,78.0,Male,High,class_2,Yes,Med_A,present ,class_c,type_0,pain  ,A,X,positive,stage_2
+16.0,70.0,Male,Normal,class_1,Yes,Med_E,present ,class_c,type_2,pain  ,B,Y,positive,stage_2
+96.0,46.0,Male,Normal,class_1,Yes,Med_C,present ,class_c,type_1,pain  ,A,X,positive,stage_2
+34.0,39.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+10.0,75.0,Male,High,class_2,Yes,Med_A,present ,class_c,type_0,pain  ,A,X,positive,stage_2
+10.0,75.0,Male,High,class_2,Yes,Med_A,present ,class_c,type_0,pain  ,A,X,positive,stage_2
+85.0,53.0,Male,Normal,class_1,Yes,Med_E,present ,class_c,type_2,pain  ,B,Y,positive,stage_2
+61.0,56.0,Male,High,class_2,Yes,Med_A,present ,class_c,type_0,pain  ,A,X,positive,stage_2
+81.0,64.0,Male,Normal,class_1,Yes,Med_C,present ,class_d,type_1,pain  ,A,X,positive,stage_2
+73.0,37.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+54.0,74.0,Male,Low,class_0,No,Med_B,absent,class_a,type_1,no_pain,A,X,negative,stage_1
+98.0,43.0,Male,Low,class_0,No,Med_B,absent,class_a,type_1,no_pain,A,X,negative,stage_1
+38.0,66.0,Male,Low,class_0,No,Med_B,absent,class_b,type_1,no_pain,A,X,negative,stage_1
+56.0,54.0,Male,High,class_2,Yes,Med_A,present ,class_d,type_0,pain  ,A,X,positive,stage_2
+83.0,31.0,Male,Low,class_0,No,Med_A,absent,class_a,type_0,no_pain,A,X,positive,stage_1
+62.0,35.0,Male,Low,class_0,No,Med_A,absent,class_a,type_0,no_pain,A,X,positive,stage_1
+87.0,57.0,Male,Low,class_0,No,Med_A,absent,class_a,type_0,no_pain,A,X,positive,stage_1
+58.0,24.0,Male,Low,class_0,No,Med_A,absent,class_a,type_0,no_pain,A,X,positive,stage_1
+71.0,70.0,Female,Normal,class_1,Yes,Med_E,present ,class_d,type_2,pain  ,B,Y,positive,stage_2
+5.0,60.0,Male,Low,class_0,No,Med_B,absent,class_b,type_1,no_pain,A,X,negative,stage_1
+23.0,19.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+29.0,77.0,Female,Normal,class_1,Yes,Med_E,present ,class_d,type_2,pain  ,B,Y,positive,stage_2
+8.0,38.0,Female,High,class_2,Yes,Med_A,present ,class_d,type_0,pain  ,A,X,positive,stage_2
+24.0,41.0,Male,High,class_2,Yes,Med_D,present ,class_c,type_2,pain  ,B,Y,negative,stage_2
+11.0,36.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+28.0,19.0,Female,Normal,class_1,Yes,Med_C,present ,class_c,type_1,pain  ,A,X,positive,stage_2
+64.0,42.0,Male,Low,class_0,No,Med_A,absent,class_a,type_0,no_pain,A,X,positive,stage_1
+37.0,42.0,Male,Low,class_0,No,Med_B,absent,class_b,type_1,no_pain,A,X,negative,stage_1
+38.0,66.0,Male,High,class_2,Yes,Med_D,present ,class_c,type_2,pain  ,B,Y,negative,stage_2
+21.0,39.0,Male,High,class_2,Yes,Med_D,present ,class_d,type_2,pain  ,B,Y,negative,stage_2
+27.0,55.0,Male,High,class_2,Yes,Med_A,present ,class_c,type_0,pain  ,A,X,positive,stage_2
+94.0,21.0,Male,Low,class_0,No,Med_B,absent,class_b,type_1,no_pain,A,X,negative,stage_1
+65.0,77.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+61.0,56.0,Male,High,class_2,Yes,Med_A,present ,class_c,type_0,pain  ,A,X,positive,stage_2
+18.0,57.0,Male,Low,class_0,No,Med_A,absent,class_a,type_0,no_pain,A,X,positive,stage_1
+73.0,37.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+17.0,53.0,Male,High,class_2,Yes,Med_D,present ,class_c,type_2,pain  ,B,Y,negative,stage_2
+38.0,66.0,Male,High,class_2,Yes,Med_D,present ,class_c,type_2,pain  ,B,Y,negative,stage_2
+99.0,61.0,Male,Low,class_0,No,Med_A,absent,class_a,type_0,no_pain,A,X,positive,stage_1
+64.0,42.0,Male,Low,class_0,No,Med_A,absent,class_a,type_0,no_pain,A,X,positive,stage_1
+56.0,54.0,Male,High,class_2,Yes,Med_A,present ,class_d,type_0,pain  ,A,X,positive,stage_2
+69.0,26.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+85.0,53.0,Male,Normal,class_1,Yes,Med_E,present ,class_c,type_2,pain  ,B,Y,positive,stage_2
+78.0,61.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+23.0,19.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+4.0,32.0,Male,Normal,class_1,Yes,Med_C,present ,class_d,type_1,pain  ,A,X,positive,stage_2
+32.0,29.0,Male,Normal,class_1,Yes,Med_C,present ,class_c,type_1,pain  ,A,X,positive,stage_2
+27.0,55.0,Male,High,class_2,Yes,Med_A,present ,class_c,type_0,pain  ,A,X,positive,stage_2
+22.0,70.0,Male,Low,class_0,No,Med_A,absent,class_a,type_0,no_pain,A,X,positive,stage_1
+95.0,71.0,Female,Normal,class_1,Yes,Med_E,present ,class_c,type_2,pain  ,B,Y,positive,stage_2
+88.0,21.0,Male,High,class_2,Yes,Med_D,present ,class_c,type_2,pain  ,B,Y,negative,stage_2
+32.0,29.0,Male,Normal,class_1,Yes,Med_C,present ,class_c,type_1,pain  ,A,X,positive,stage_2
+66.0,31.0,Male,Low,class_0,No,Med_B,absent,class_b,type_1,no_pain,A,X,negative,stage_1
+40.0,76.0,Female,Normal,class_1,Yes,Med_C,present ,class_c,type_1,pain  ,A,X,positive,stage_2
+92.0,71.0,Male,Normal,class_1,Yes,Med_E,present ,class_d,type_2,pain  ,B,Y,positive,stage_2
+46.0,79.0,Male,High,class_2,Yes,Med_D,present ,class_d,type_2,pain  ,B,Y,negative,stage_2
+27.0,55.0,Male,High,class_2,Yes,Med_A,present ,class_c,type_0,pain  ,A,X,positive,stage_2
+25.0,61.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+57.0,68.0,Female,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+27.0,55.0,Male,High,class_2,Yes,Med_A,present ,class_c,type_0,pain  ,A,X,positive,stage_2
+59.0,38.0,Male,Low,class_0,No,Med_B,absent,class_b,type_1,no_pain,A,X,negative,stage_1
+90.0,79.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+40.0,76.0,Female,Normal,class_1,Yes,Med_C,present ,class_c,type_1,pain  ,A,X,positive,stage_2
+22.0,70.0,Male,Low,class_0,No,Med_A,absent,class_a,type_0,no_pain,A,X,positive,stage_1
+100.0,51.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+51.0,61.0,Male,Normal,class_1,Yes,Med_E,present ,class_c,type_2,pain  ,B,Y,positive,stage_2
+10.0,75.0,Male,High,class_2,Yes,Med_A,present ,class_c,type_0,pain  ,A,X,positive,stage_2
+5.0,60.0,Male,Low,class_0,No,Med_B,absent,class_b,type_1,no_pain,A,X,negative,stage_1
+11.0,36.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+63.0,21.0,Male,Low,class_0,No,Med_A,absent,class_a,type_0,no_pain,A,X,positive,stage_1
+80.0,25.0,Male,Normal,class_1,Yes,Med_C,present ,class_d,type_1,pain  ,A,X,positive,stage_2
+43.0,77.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+7.0,78.0,Female,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+39.0,44.0,Female,High,class_2,Yes,Med_A,present ,class_d,type_0,pain  ,A,X,positive,stage_2
+100.0,51.0,Male,Low,class_0,No,Med_A,absent,class_b,type_0,no_pain,A,X,positive,stage_1
+53.0,69.0,Male,Normal,class_1,Yes,Med_C,present ,class_c,type_1,pain  ,A,X,positive,stage_2
+98.0,43.0,Male,Low,class_0,No,Med_B,absent,class_a,type_1,no_pain,A,X,negative,stage_1
+87.0,57.0,Male,Low,class_0,No,Med_A,absent,class_a,type_0,no_pain,A,X,positive,stage_1

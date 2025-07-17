@@ -1,0 +1,63 @@
+Check for functional dependencies in file 'synthetic_tabula_test_check_v3_imbalance.csv'
+Rows: 100
+Cols: 15
+----
+
+Keys: []
+----
+
+{"patient_ids"} -> {"age", "gender", "Feature_K"}
+{"Feature_A"} -> {"Feature_B", "Feature_C", "Feature_E", "Feature_H", "Feature_L"}
+{"Feature_B"} -> {"Feature_A", "Feature_C", "Feature_E", "Feature_H", "Feature_L"}
+{"Feature_C"} -> {"Feature_E", "Feature_H", "Feature_L"}
+{"Feature_D"} -> {"Feature_G", "Feature_I", "Feature_J", "Feature_K"}
+{"Feature_E"} -> {"Feature_C", "Feature_H", "Feature_L"}
+{"Feature_F"} -> {"Feature_C", "Feature_E", "Feature_H", "Feature_L"}
+{"Feature_G"} -> {"Feature_I", "Feature_J"}
+{"Feature_H"} -> {"Feature_C", "Feature_E", "Feature_L"}
+{"Feature_I"} -> {"Feature_J"}
+{"Feature_J"} -> {"Feature_I"}
+{"Feature_L"} -> {"Feature_C", "Feature_E", "Feature_H"}
+{"patient_ids", "Feature_A"} -> {"Feature_D", "Feature_F", "Feature_G", "Feature_I", "Feature_J"}
+{"age", "Feature_A"} -> {"Feature_I", "Feature_J"}
+{"patient_ids", "Feature_B"} -> {"Feature_D", "Feature_F", "Feature_G", "Feature_I", "Feature_J"}
+{"age", "Feature_B"} -> {"Feature_I", "Feature_J"}
+{"patient_ids", "Feature_C"} -> {"Feature_A", "Feature_B", "Feature_D", "Feature_F", "Feature_G", "Feature_I", "Feature_J"}
+{"patient_ids", "Feature_D"} -> {"Feature_A", "Feature_B", "Feature_C", "Feature_E", "Feature_F", "Feature_H", "Feature_L"}
+{"Feature_C", "Feature_D"} -> {"Feature_A", "Feature_B"}
+{"patient_ids", "Feature_E"} -> {"Feature_A", "Feature_B", "Feature_D", "Feature_F", "Feature_G", "Feature_I", "Feature_J"}
+{"Feature_D", "Feature_E"} -> {"Feature_A", "Feature_B"}
+{"patient_ids", "Feature_F"} -> {"Feature_A", "Feature_B", "Feature_D", "Feature_G", "Feature_I", "Feature_J"}
+{"age", "Feature_F"} -> {"gender"}
+{"Feature_D", "Feature_F"} -> {"Feature_A", "Feature_B"}
+{"patient_ids", "Feature_G"} -> {"Feature_A", "Feature_B", "Feature_C", "Feature_D", "Feature_E", "Feature_F", "Feature_H", "Feature_L"}
+{"Feature_A", "Feature_G"} -> {"Feature_D", "Feature_K"}
+{"Feature_B", "Feature_G"} -> {"Feature_D", "Feature_K"}
+{"patient_ids", "Feature_H"} -> {"Feature_A", "Feature_B", "Feature_D", "Feature_F", "Feature_G", "Feature_I", "Feature_J"}
+{"Feature_D", "Feature_H"} -> {"Feature_A", "Feature_B"}
+{"patient_ids", "Feature_I"} -> {"Feature_A", "Feature_B", "Feature_C", "Feature_D", "Feature_E", "Feature_F", "Feature_G", "Feature_H", "Feature_L"}
+{"patient_ids", "Feature_J"} -> {"Feature_A", "Feature_B", "Feature_C", "Feature_D", "Feature_E", "Feature_F", "Feature_G", "Feature_H", "Feature_L"}
+{"Feature_G", "Feature_K"} -> {"Feature_D"}
+{"patient_ids", "Feature_L"} -> {"Feature_A", "Feature_B", "Feature_D", "Feature_F", "Feature_G", "Feature_I", "Feature_J"}
+{"Feature_D", "Feature_L"} -> {"Feature_A", "Feature_B"}
+{"age", "Feature_A", "Feature_F"} -> {"Feature_D", "Feature_G", "Feature_K"}
+{"age", "Feature_B", "Feature_F"} -> {"Feature_D", "Feature_G", "Feature_K"}
+{"age", "Feature_F", "Feature_I"} -> {"Feature_G"}
+{"age", "Feature_F", "Feature_J"} -> {"Feature_G"}
+{"age", "Feature_A", "Feature_K"} -> {"Feature_D", "Feature_G"}
+{"age", "Feature_B", "Feature_K"} -> {"Feature_D", "Feature_G"}
+{"age", "Feature_C", "Feature_K"} -> {"Feature_I", "Feature_J"}
+{"age", "Feature_E", "Feature_K"} -> {"Feature_I", "Feature_J"}
+{"age", "Feature_F", "Feature_K"} -> {"Feature_A", "Feature_B", "Feature_D", "Feature_G", "Feature_I", "Feature_J"}
+{"Feature_C", "Feature_G", "Feature_K"} -> {"Feature_A", "Feature_B"}
+{"Feature_E", "Feature_G", "Feature_K"} -> {"Feature_A", "Feature_B"}
+{"Feature_F", "Feature_G", "Feature_K"} -> {"Feature_A", "Feature_B"}
+{"age", "Feature_H", "Feature_K"} -> {"Feature_I", "Feature_J"}
+{"Feature_G", "Feature_H", "Feature_K"} -> {"Feature_A", "Feature_B"}
+{"Feature_A", "Feature_I", "Feature_K"} -> {"Feature_D", "Feature_G"}
+{"Feature_B", "Feature_I", "Feature_K"} -> {"Feature_D", "Feature_G"}
+{"Feature_A", "Feature_J", "Feature_K"} -> {"Feature_D", "Feature_G"}
+{"Feature_B", "Feature_J", "Feature_K"} -> {"Feature_D", "Feature_G"}
+{"age", "Feature_K", "Feature_L"} -> {"Feature_I", "Feature_J"}
+{"Feature_G", "Feature_K", "Feature_L"} -> {"Feature_A", "Feature_B"}
+.
