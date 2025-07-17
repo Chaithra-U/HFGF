@@ -1,0 +1,23 @@
+Check for functional dependencies in file 'synthetic_ctabgan+_test_check.csv'
+Rows: 100
+Cols: 8
+----
+
+Keys: []
+----
+
+{"patient_ids", "age", "Feature_A"} -> {"gender", "Feature_C"}
+{"patient_ids", "age", "Feature_B"} -> {"Feature_C"}
+{"patient_ids", "age", "Feature_E"} -> {"Feature_C"}
+{"patient_ids", "age", "gender", "Feature_B"} -> {"Feature_A"}
+{"patient_ids", "age", "gender", "Feature_C"} -> {"Feature_A"}
+{"patient_ids", "age", "Feature_A", "Feature_D"} -> {"Feature_E"}
+{"patient_ids", "age", "Feature_B", "Feature_D"} -> {"Feature_E"}
+{"age", "Feature_A", "Feature_B", "Feature_D"} -> {"gender"}
+{"patient_ids", "age", "Feature_C", "Feature_D"} -> {"Feature_E"}
+{"patient_ids", "age", "gender", "Feature_E"} -> {"Feature_A"}
+{"patient_ids", "age", "Feature_B", "Feature_E"} -> {"Feature_D"}
+{"patient_ids", "Feature_A", "Feature_B", "Feature_C", "Feature_D"} -> {"Feature_E"}
+{"age", "Feature_A", "Feature_B", "Feature_C", "Feature_D"} -> {"Feature_E"}
+{"patient_ids", "gender", "Feature_A", "Feature_B", "Feature_C", "Feature_E"} -> {"Feature_D"}
+.

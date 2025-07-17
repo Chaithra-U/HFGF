@@ -1,0 +1,14 @@
+Check for functional dependencies in file 'synthetic_ctabgan+_test_v1.csv'
+Rows: 1000
+Cols: 7
+----
+
+Keys: []
+----
+
+{"patient_ids", "age", "gender", "Feature_A"} -> {"Feature_B"}
+{"patient_ids", "age", "gender", "Feature_C"} -> {"Feature_B"}
+{"patient_ids", "age", "Feature_A", "Feature_C"} -> {"Feature_B", "Feature_D"}
+{"patient_ids", "age", "Feature_A", "Feature_D"} -> {"Feature_B", "Feature_C"}
+{"patient_ids", "age", "Feature_C", "Feature_D"} -> {"Feature_B"}
+.
