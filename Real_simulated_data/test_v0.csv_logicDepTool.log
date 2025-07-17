@@ -1,0 +1,13 @@
+Check for functional dependencies in file 'test_v0.csv'
+Rows: 100
+Cols: 7
+----
+
+Keys: [1]
+----
+
+{"patient_ids"} -> {"age", "gender", "Feature_A", "Feature_B", "Feature_C", "Feature_D"}
+{"Feature_A"} -> {"Feature_B", "Feature_C"}
+{"Feature_B"} -> {"Feature_A", "Feature_C"}
+{"Feature_C", "Feature_D"} -> {"Feature_A", "Feature_B"}
+.
