@@ -4,7 +4,7 @@ This repository accompanies our paper on **Dependency-Aware Synthetic Tabular Da
 
 ---
 
-## 🚀 Overview of HFGF
+##  Overview of HFGF
 
 The **Hierarchical Feature Generation Framework (HFGF)** generates synthetic tabular data by separating the process into two stages:
 
@@ -15,7 +15,7 @@ The **Hierarchical Feature Generation Framework (HFGF)** generates synthetic tab
 
 ---
 
-## 🔍 Identifying Independent and Dependent Features
+##  Identifying Independent and Dependent Features
 
 - **Simulated Data**:  
   Dependencies are predefined when generating the data. Independent and dependent features are explicitly known.
@@ -29,7 +29,7 @@ The **Hierarchical Feature Generation Framework (HFGF)** generates synthetic tab
 
 ---
 
-## 🧪 Simulated Data
+##  Simulated Data
 
 We created **four synthetic datasets** with varying:
 - Number of features
