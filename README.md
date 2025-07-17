@@ -1,6 +1,6 @@
 # Dependency-Aware Synthetic Tabular Data Generation
 
-This repository accompanies our paper on **Dependency-Aware Synthetic Tabular Data Generation**, where we propose the **Hierarchical Feature Generation Framework (HFGF)**. HFGF is designed to preserve both **functional** and **logical dependencies** between features in synthetic tabular data.
+This repository presents the **Hierarchical Feature Generation Framework (HFGF)**, a method for generating synthetic tabular data while preserving both functional and logical dependencies between features. The framework is developed as part of our research on **Dependency-aware synthetic data generation.**
 
 ---
 
