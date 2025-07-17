@@ -1,0 +1,20 @@
+Check for functional dependencies in file 'synthetic_ctgan_test_check.csv'
+Rows: 100
+Cols: 8
+----
+
+Keys: []
+----
+
+{"patient_ids", "age", "gender"} -> {"Feature_C"}
+{"patient_ids", "age", "Feature_D"} -> {"Feature_B", "Feature_C"}
+{"patient_ids", "age", "gender", "Feature_A"} -> {"Feature_E"}
+{"patient_ids", "age", "gender", "Feature_B"} -> {"Feature_E"}
+{"patient_ids", "age", "Feature_A", "Feature_C"} -> {"gender", "Feature_E"}
+{"patient_ids", "age", "gender", "Feature_D"} -> {"Feature_A", "Feature_E"}
+{"patient_ids", "age", "Feature_A", "Feature_D"} -> {"gender", "Feature_E"}
+{"patient_ids", "age", "Feature_B", "Feature_E"} -> {"gender", "Feature_C"}
+{"patient_ids", "age", "Feature_D", "Feature_E"} -> {"gender", "Feature_A"}
+{"age", "gender", "Feature_A", "Feature_B", "Feature_C"} -> {"Feature_E"}
+{"age", "gender", "Feature_A", "Feature_B", "Feature_D"} -> {"Feature_C", "Feature_E"}
+.
