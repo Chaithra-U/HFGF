@@ -70,10 +70,20 @@ See the paper for detailed descriptions of each simulated dataset.
 
 ## 📊 Baseline Generative Models
 
-We compared HFGF with six state-of-the-art generative models using their official implementations.  
-➤ *[Add links to each generative model's repository here]*
+We compared HFGF with six state-of-the-art generative models using their official implementations.
 
----
+➤ CTGAN: https://github.com/sdv-dev/CTGAN
 
-## 📁 Project Structure
+➤ CTABGAN+: https://github.com/Team-TUD/CTAB-GAN-Plus-DP
+
+➤ TVAE:  https://github.com/sdv-dev/TVAE
+
+➤ NextConvGeN: https://github.com/manjunath-mahendra/NextConvGeN
+
+➤ TabuLa: https://github.com/zhao-zilong/Tabula
+
+➤ GReaT: https://github.com/tabularis-ai/be_great
+
+
+
 
