@@ -1,0 +1,14 @@
+Check for functional dependencies in file 'synthetic_great_test_v1.csv'
+Rows: 1000
+Cols: 7
+----
+
+Keys: []
+----
+
+{"Feature_A"} -> {"Feature_B"}
+{"Feature_B"} -> {"Feature_A"}
+{"patient_ids", "age", "Feature_A"} -> {"Feature_C"}
+{"patient_ids", "age", "Feature_B"} -> {"Feature_C"}
+{"patient_ids", "age", "Feature_C", "Feature_D"} -> {"Feature_A", "Feature_B"}
+.

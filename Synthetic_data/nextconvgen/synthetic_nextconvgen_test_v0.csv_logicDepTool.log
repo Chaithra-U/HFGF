@@ -1,0 +1,17 @@
+Check for functional dependencies in file 'synthetic_nextconvgen_test_v0.csv'
+Rows: 100
+Cols: 7
+----
+
+Keys: []
+----
+
+{"patient_ids"} -> {"age", "gender", "Feature_A", "Feature_B", "Feature_C", "Feature_D"}
+{"age"} -> {"gender", "Feature_D"}
+{"Feature_A"} -> {"Feature_B", "Feature_C"}
+{"Feature_B"} -> {"Feature_A", "Feature_C"}
+{"age", "Feature_A"} -> {"patient_ids"}
+{"age", "Feature_B"} -> {"patient_ids"}
+{"age", "Feature_C"} -> {"patient_ids", "Feature_A", "Feature_B"}
+{"Feature_C", "Feature_D"} -> {"Feature_A", "Feature_B"}
+.
