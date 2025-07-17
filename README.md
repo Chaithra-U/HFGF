@@ -48,7 +48,7 @@ See the paper for detailed descriptions of each simulated dataset.
 
 1. **Extract dependencies**:
    - Functional dependencies: Use **FDTool**  
-     ➤ *[Add FDTool link here]*
+     ➤ https://github.com/USEPA/FDTool
    - Logical dependencies: Use the **Q-function**  
      - Code: [`Functions.py`](./Functions.py)  
      - Example usage: [`LD_comparison.py`](./LD_comparison.py)
