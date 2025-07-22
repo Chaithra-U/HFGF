@@ -1,12 +1,12 @@
 # Dependency-Aware Synthetic Tabular Data Generation
 
-This repository presents the **Hierarchical Feature Generation Framework (HFGF)**, a method for generating synthetic tabular data while preserving both functional and logical dependencies between features. The framework is developed as part of our research on **Dependency-aware synthetic data generation.**
+This repository presents the **Hierarchical Feature Generation Framework (HFGF)**, a framework for generating synthetic tabular data while preserving both functional and logical dependencies between features. The framework is proposed as part of our research on **Dependency-aware synthetic data generation.**
 
 ---
 
 ##  Overview of HFGF
 
-The **Hierarchical Feature Generation Framework (HFGF)** generates synthetic tabular data by separating the process into two stages:
+The **Hierarchical Feature Generation Framework (HFGF)** generates synthetic tabular data by separating the process into two steps:
 
 1. **Identify independent and dependent features**
 2. **Generate independent features** using standard generative models
@@ -17,7 +17,7 @@ The **Hierarchical Feature Generation Framework (HFGF)** generates synthetic tab
 
 ##  Identifying Independent and Dependent Features
 
-- **Simulated Data**:  
+- **Benchmark Data**:  
   Dependencies are predefined when generating the data. Independent and dependent features are explicitly known.
 
 - **Real Data**:  
@@ -29,18 +29,18 @@ The **Hierarchical Feature Generation Framework (HFGF)** generates synthetic tab
 
 ---
 
-##  Simulated Data
+##  Benchmark Data
 
-We created **four synthetic datasets** with varying:
+We created **four benchmark datasets** with varying:
 - Number of features
 - Number of rows
 - Types and numbers of dependencies
 
 **Files:**
-- Data generation code: [`Simulated_data_generator.py`](./Simulated_data_generator.py)
-- Generated datasets: [`Real_simulated_data/`](./Real_simulated_data/)
+- Data generation code: [`Benchmark_data_generator.py`](./Benchmark_data_generator.py)
+- Generated datasets: [`Benchmark_data/`](./Benchmark_data/)
 
-See the paper for detailed descriptions of each simulated dataset.
+See the paper for detailed descriptions of each benchmark dataset.
 
 ---
 
