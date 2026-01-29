@@ -1,0 +1,11 @@
+Check for functional dependencies in file 'adult_data_reduced_categorical.csv'
+Rows: 1000
+Cols: 10
+----
+
+Keys: []
+----
+
+{"education"} -> {"education-num"}
+{"education-num"} -> {"education"}
+.

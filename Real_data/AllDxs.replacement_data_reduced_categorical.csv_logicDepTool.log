@@ -1,0 +1,10 @@
+Check for functional dependencies in file 'AllDxs.replacement_data_reduced_categorical.csv'
+Rows: 1500
+Cols: 2
+----
+
+Keys: []
+----
+
+{"F"} -> {"G"}
+.
