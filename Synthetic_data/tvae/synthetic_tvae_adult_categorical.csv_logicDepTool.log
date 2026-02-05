@@ -1,0 +1,19 @@
+Check for functional dependencies in file 'synthetic_tvae_adult_categorical.csv'
+Rows: 1000
+Cols: 10
+----
+
+Keys: []
+----
+
+{"workclass"} -> {"race", "native-country"}
+{"education"} -> {"race", "native-country"}
+{"marital-status"} -> {"race", "native-country"}
+{"occupation"} -> {"race", "native-country"}
+{"relationship"} -> {"race", "native-country"}
+{"race"} -> {"native-country"}
+{"sex"} -> {"race", "native-country"}
+{"native-country"} -> {"race"}
+{"income"} -> {"race", "native-country"}
+{"education-num"} -> {"race", "native-country"}
+.
