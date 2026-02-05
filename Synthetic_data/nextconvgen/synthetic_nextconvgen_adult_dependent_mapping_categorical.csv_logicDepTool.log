@@ -1,0 +1,11 @@
+Check for functional dependencies in file 'synthetic_nextconvgen_adult_dependent_mapping_categorical.csv'
+Rows: 973
+Cols: 10
+----
+
+Keys: []
+----
+
+{"education"} -> {"education-num"}
+{"education-num"} -> {"education"}
+.

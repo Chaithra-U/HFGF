@@ -1,0 +1,15 @@
+Check for functional dependencies in file 'synthetic_nextconvgen_migraine_dependent_mapping_categorical.csv'
+Rows: 195
+Cols: 11
+----
+
+Keys: []
+----
+
+{"Location"} -> {"Character"}
+{"Character"} -> {"Location"}
+{"Intensity"} -> {"Location", "Character"}
+{"Intensity", "Tinnitus", "Defect", "DPF"} -> {"Hypoacusis"}
+{"Frequency", "Intensity", "Vertigo", "Tinnitus", "DPF"} -> {"Hypoacusis"}
+{"Frequency", "Intensity", "Vertigo", "Tinnitus", "Diplopia", "Defect", "Dysphasia"} -> {"Hypoacusis"}
+.
