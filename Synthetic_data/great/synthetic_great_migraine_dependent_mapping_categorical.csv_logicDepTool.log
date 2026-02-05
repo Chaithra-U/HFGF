@@ -1,0 +1,22 @@
+Check for functional dependencies in file 'synthetic_great_migraine_dependent_mapping_categorical.csv'
+Rows: 240
+Cols: 11
+----
+
+Keys: []
+----
+
+{"Frequency"} -> {"Hypoacusis", "Diplopia"}
+{"Location"} -> {"Character", "Hypoacusis", "Diplopia"}
+{"Character"} -> {"Location", "Hypoacusis", "Diplopia"}
+{"Intensity"} -> {"Location", "Character", "Hypoacusis", "Diplopia"}
+{"Hypoacusis"} -> {"Diplopia"}
+{"Vertigo"} -> {"Hypoacusis", "Diplopia"}
+{"Tinnitus"} -> {"Hypoacusis", "Diplopia"}
+{"Diplopia"} -> {"Hypoacusis"}
+{"Defect"} -> {"Hypoacusis", "Diplopia"}
+{"DPF"} -> {"Hypoacusis", "Diplopia"}
+{"Dysphasia"} -> {"Hypoacusis", "Diplopia"}
+{"Intensity", "Tinnitus", "DPF", "Dysphasia"} -> {"Defect"}
+{"Vertigo", "Tinnitus", "DPF", "Dysphasia"} -> {"Defect"}
+.

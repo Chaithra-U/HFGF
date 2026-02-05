@@ -1,0 +1,11 @@
+Check for functional dependencies in file 'synthetic_great_adult_dependent_mapping_categorical.csv'
+Rows: 1000
+Cols: 10
+----
+
+Keys: []
+----
+
+{"education"} -> {"education-num"}
+{"education-num"} -> {"education"}
+.

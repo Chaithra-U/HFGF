@@ -1,0 +1,12 @@
+Check for functional dependencies in file 'synthetic_great_adult_categorical.csv'
+Rows: 1000
+Cols: 10
+----
+
+Keys: []
+----
+
+{"workclass", "education", "marital-status", "occupation", "relationship", "income"} -> {"education-num"}
+{"workclass", "education", "occupation", "relationship", "race", "income"} -> {"education-num"}
+{"workclass", "education", "marital-status", "occupation", "sex", "income"} -> {"education-num"}
+.
