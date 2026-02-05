@@ -1,0 +1,9 @@
+Check for functional dependencies in file 'synthetic_ctabgan+_adult_categorical.csv'
+Rows: 1000
+Cols: 10
+----
+
+Keys: []
+----
+
+.
