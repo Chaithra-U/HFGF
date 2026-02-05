@@ -1,0 +1,11 @@
+Check for functional dependencies in file 'synthetic_tabula_migraine_categorical.csv'
+Rows: 377
+Cols: 11
+----
+
+Keys: []
+----
+
+{"Intensity"} -> {"Character"}
+{"Frequency", "Intensity", "Vertigo", "Tinnitus", "Defect", "DPF", "Dysphasia"} -> {"Hypoacusis"}
+.

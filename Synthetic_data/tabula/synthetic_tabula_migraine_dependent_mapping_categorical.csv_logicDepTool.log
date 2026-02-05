@@ -1,0 +1,12 @@
+Check for functional dependencies in file 'synthetic_tabula_migraine_dependent_mapping_categorical.csv'
+Rows: 223
+Cols: 11
+----
+
+Keys: []
+----
+
+{"Location"} -> {"Character"}
+{"Character"} -> {"Location"}
+{"Intensity"} -> {"Location", "Character"}
+.
